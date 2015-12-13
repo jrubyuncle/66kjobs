@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'pry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
@@ -59,9 +59,9 @@ gem "whenever"
 
 group :development do 
   gem "letter_opener"
+  gem "rvm-capistrano"
   gem "capistrano", "2.15.5"
   gem "capistrano-ext"
-  gem "rvm-capistrano"
   gem "cape"
   gem "better_errors"
   gem "annotate"
